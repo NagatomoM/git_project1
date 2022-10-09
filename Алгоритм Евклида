@@ -1,0 +1,12 @@
+a, b = int(input()), int(input())
+c, v = a, b
+n = 0
+m = 0
+while a!=0 and b != 0:
+    if a > b:
+        a = a - b
+    else:
+        b = b - a
+n = a+b
+m = c*v//n
+print ('НОК =', m, 'НОД = ', n)
